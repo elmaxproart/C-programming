@@ -1,0 +1,13 @@
+L'événement "UNIX_READING_MAX" est une compétition visant à déterminer le plus grand lecteur du mois. Les règles pour participer à cet événement sont simples mais rigoureuses. Le participant qui souhaite être éligible au titre de "plus grand lecteur" doit respecter les critères suivants :
+
+1. Absence de retard de remise de livre : Le participant ne doit avoir aucun retard dans la restitution des livres empruntés à la bibliothèque. Même un seul retard disqualifie le candidat.
+
+2. Statut de membre premium : Le participant doit être un membre premium inscrit à la bibliothèque. Le statut de membre premium garantit un accès privilégié aux ouvrages et services proposés par la bibliothèque.
+
+3. Lecture d'au moins 15 livres : Le participant doit avoir lu un minimum de 15 livres au cours du mois. Cela démontre son engagement et son amour pour la lecture.
+
+Une fois toutes ces conditions remplies, les résultats seront compilés et le participant ayant respecté toutes les règles sera honoré du titre de "plus grand lecteur" du mois. Cette personne sera récompensée pour ses efforts et son dévouement envers la lecture.
+
+L'événement "UNIX_READING_MAX" est une occasion pour les amateurs de lecture de se dépasser et de prouver leur passion pour les livres. Il incite également les participants à respecter les délais de remise des ouvrages ainsi qu'à profiter des avantages offerts par leur statut de membre premium.
+
+Que vous soyez un fervent lecteur ou que vous souhaitiez développer votre goût pour la lecture, l'événement "UNIX_READING_MAX" vous offre une motivation supplémentaire pour découvrir de nouveaux livres et vous plonger dans des récits passionnants.

@@ -1,0 +1,93 @@
+1. GESTION DES BIBLIOTHÈQUES:
+le logiciel en question permettra a l’utilisateur de gérer plus de deux
+bibliothèque dans le même logiciel donc la possibilité d’en gérer plusieurs
+des le 1er abord l on vous demandera si vous voulez accéder a une bibliothèque
+spécifique ou en créé une nouvelle.
+L ‘utilisateur pourra faire le choix soi de gérer une bibliothèque publique une
+une qui soit privée
+2. la gestion des membres de la bibliothèque
+le logiciel propose une fonctionnalités de gestion des membre de la
+bibliothèque selon 2 classe 1 les membres standards et 2 les membres
+premium(uniquement pour les bibliothèques privée).l’on pourras donc avoir les
+champ tel que:
+- 
+
+GESTION DES EMPRUNTS && et des membres:
+
+Voici un exemple de procédure pour gérer les emprunts des livres d'une bibliothèque
+uniquement par les personnes membres de cette bibliothèque :
+1. Vérifier si le client est membre de la bibliothèque.
+- Demander au client de fournir son numéro de carte de membre.
+- Rechercher dans la base de données des membres si le numéro de carte existe.
+- Si le numéro de carte n'est pas trouvé, indiquer au client qu'il doit être membre pour
+pouvoir emprunter un livre.
+2. Vérifier si le client est autorisé à emprunter un livre.
+- Vérifier si le client possède une carte de membre valide.
+- Vérifier si le client a un retard de remise des livres inférieur à 3.
+- Si le client n'est pas autorisé à emprunter, indiquer la raison au client (pas de carte ou
+retard de remise des livres).
+3. Vérifier le nombre de livres déjà empruntés par le client.
+- Rechercher dans la base de données des emprunts les livres empruntés par le client.
+- Compter le nombre de livres empruntés.
+- Si le client a déjà atteint la limite d'emprunts (5 livres par semaine pour les membres
+premium et 1 livre pour les membres standard), indiquer au client qu'il ne peut pas
+emprunter plus de livres.
+4. Vérifier les antécédents de retard de la personne en fonction des dates de retour.
+- Rechercher dans la base de données des emprunts les dates de retour des livres empruntés
+par le client.
+- Vérifier si le client a des livres en retard de retour.
+- Si le client a des retards de remise des livres, notifier le client de son retard et des
+éventuelles pénalités associées.
+5. Attribuer des points de mérite au membre qui remet les livres à temps.
+- Si le client remet les livres empruntés à temps, attribuer des points de mérite à son compte.
+- Mettre à jour le total des points de mérite dans la base de données du membre.
+6. Ajouter un membre comme membre premium.
+- Vérifier si le client souhaite devenir membre premium.
+- Si oui, ajouter le membre dans la catégorie premium dans la base de données des membres.
+- Mettre à jour la contribution mensuelle du membre premium (34 euros minimum).
+7. Enlever un membre comme membre premium.
+- Vérifier si le client souhaite ne plus être membre premium.
+- Si oui, supprimer le membre de la catégorie premium dans la base de données des
+membres.
+- Mettre à jour la contribution mensuelle du membre standard (ou autre catégorie) dans la
+base de données.
+PROCÉDURE D’EMPRUNT:
+POUR pouvoir emprunter ,l ans un cas réel:e client client devra donner ça
+carte de membre a secrétaire qui la fera analyser pour vérifier s’il est d’abord
+un membre et s’il a les droit d’emprunt .mais dans notre cas on vas simulée ce
+système de détection en utilisant un numéro de carte de membre celui -ci sera
+demander a l ‘utilisateur lors de l ‘emprunt .si il est membre standard il ne
+pourra qu ‘emprunter ‘1’ livre la semaine mais s’il est premium ce sera ‘5’
+livres.
+s’il n ‘est ni membre standard ni premium il ne pourras emprunter et son
+numéro sera rejeter par le système. Si le client a des antécédent de retard de
+remise,il ne pourra qu’ emprunter que:’0’ livre cette semaine pour un membre
+standard  PLUS un amande de 10 euros.Et ‘2’  livre pour un premium PLUS un amande de 10 euros. Si le livre a déjà été emprunter il ne
+pourra pas l’emprunter mais il pourra quant même le réserver pour une
+prochaine fois en utilisant la règle du «FI-FO»
+  
+FONCTIONNALITÉS SPÉCIALES:
+
+Le logiciel possède un panel d’événements spéciaux  propre a Unix_MAX (ÉVÉNEMENTS SPÉCIAUX UNIX_MAX),accessible uniquement au membres premium . un membre peux adhérer a un événement  en laissant ces id  et il peux aussi consulté les différents éventements disponible. Tel que le 
+SPÉCIAL_UNIX READING_MAX ÉVENT
+ 
+CONFIDENTIALITÉ:
+LE logiciel utilisant un système de log in pour que seul les personnes admin puissent apporter une quelconque modification au informations enregistré au sein d ‘UNIX_MAX pour évité toute violation des droit civil de chaque clients et de l’intégrité interne du logiciel.
+GESTION DES LIVRES ET REVENUS:
+LE logiciel nous permettant de gérer les livres présent a la bibliothèque nous
+permettant de:(l’ajout,la suppression,la rechercher,la modification, l affichage
+des )des livres de cette bibliothèque.
+Mais aussi des gérer les revenues mensuelle (cas d une bibliothèque privée) en
+calculer les revenus mensuelle de la bibliothèque.
+
+Le code source sera fait sous forme de makefile pour une meilleur gestion du
+code et une meilleur fluidité dans la manipulation en saisissant juste la commande «make run» pour exécuté l’exécutable et ainsi lacé le logiciel.
+Améliorations future :
+    • a possibilité de gérer plusieurs structure dans Unix_max comme : la gestion
+des étudiant et note d une université ,la gestion des annuaires téléphonique ,la
+gestion des stokes d un super marcher ...etc
+    • l’ajout d’un système de cloud.
+    • Ajout d une version logiciel déployé.
+
+Conclusion du projet:
+Le projet UNIX_MAX  est un grand projet  regroupant plusieurs modules de fonctionnements permettant une meilleur expérience utilisateur ,donc l objectif final était de développeur un logiciel capable de gérer une bibliothèque toutes entière. Nous vous remercions de la confiance que vous utilisateurs final avez mise en notre prototype qui ne cessera de grandir au fil du temps par les nombreuses mise a jour si possibles futures qui serons apporter dans le logiciel. Nous  remercions encore la participation de tous les acteurs qui on rendu ce projet possible , et nous vous souhaitons la meilleur expérience possible.
